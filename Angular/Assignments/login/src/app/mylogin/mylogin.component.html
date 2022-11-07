@@ -1,0 +1,10 @@
+<h2>Welcome to Savarkhed</h2>
+
+<form #loginform="ngForm" (ngSubmit)="onSubmit(loginform)" style="font-size: 15pt;">
+    <br> Name <input type="text" name="uname" ngModel> <br>
+    <br> Password <input type="password" name="passwd" ngModel>
+    <br> <button style="font-size: 15pt;" >Pathva</button> 
+</form>
+
+<br><br>
+{{found}}
