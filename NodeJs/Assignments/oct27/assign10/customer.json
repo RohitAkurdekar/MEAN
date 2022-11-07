@@ -1,0 +1,34 @@
+{
+    "cust_details":[
+        {
+            "cust_name":"Rohit",
+            "addr":"Bibvewadi",
+            "ph_no":1567454354,
+            "credit_rating":780
+        },
+        {
+            "cust_name":"Amit",
+            "addr":"Sadashiv peth",
+            "ph_no":3434384313,
+            "credit_rating":787
+        },
+        {
+            "cust_name":"Vish",
+            "addr":"Ambegaon",
+            "ph_no":7864368746,
+            "credit_rating":790
+        },
+        {
+            "cust_name":"Rohan",
+            "addr":"Warje",
+            "ph_no":1854368432,
+            "credit_rating":880
+        },
+        {
+            "cust_name":"Akshay",
+            "addr":"Katraj",
+            "ph_no":836487346,
+            "credit_rating":680
+        }
+    ]
+}
