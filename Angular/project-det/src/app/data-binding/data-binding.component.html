@@ -1,0 +1,5 @@
+<img [src]="imgpath" alt="MyFile" height="500" width="500"> <br>
+<input type="text" [value]="myText" readonly> <br><br>
+
+Enter name<input #dukkar>
+<button  (click)="btnClicked(dukkar.value)">Don't Click Me</button>
