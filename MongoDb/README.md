@@ -61,4 +61,16 @@ https://www.mongodb.com/try/download/community
 
 ---------------------------------------------------------------------------------------------------------------
 
+<h3>To install studio3t</h3>
+
+1. Download Package from below link
+
+https://studio3t.com/download/
+
+2. Unzip file
+3. Run studio-3t-linux-x64.sh using bash
+
+        bash ./studio-3t-linux-x64.sh
+---------------------------------------------------------------------------------------------------------------
+
 https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/
