@@ -68,9 +68,13 @@ https://www.mongodb.com/try/download/community
 https://studio3t.com/download/
 
 2. Unzip file
-3. Run studio-3t-linux-x64.sh using bash
+3. Execute studio-3t-linux-x64.sh using bash
 
         bash ./studio-3t-linux-x64.sh
+        
+After successfull installation of studio3t; Run studio3t ide and run 'TEST CONNECTION'.
+        
+        
 ---------------------------------------------------------------------------------------------------------------
 
 https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/
