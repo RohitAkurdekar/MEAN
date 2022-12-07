@@ -59,6 +59,13 @@ https://www.mongodb.com/try/download/community
 
     sudo systemctl start mongod
 
+<br> If ERROR occurs like &rarr; mongod.service not found __OR__ Unable install mongodb __OR__ Dependency error
+
+Execute following command and re-execute process:
+
+        sudo apt remove mongodb*
+
+
 ---------------------------------------------------------------------------------------------------------------
 
 <h3>To install studio3t</h3>
@@ -74,7 +81,6 @@ https://studio3t.com/download/
         
 After successfull installation of studio3t; Run studio3t ide and run 'TEST CONNECTION'.
         
-        sudo apt remove mongodb*
 ---------------------------------------------------------------------------------------------------------------
 
 https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/
