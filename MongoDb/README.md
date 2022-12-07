@@ -74,7 +74,7 @@ https://studio3t.com/download/
         
 After successfull installation of studio3t; Run studio3t ide and run 'TEST CONNECTION'.
         
-        
+        sudo apt remove mongodb*
 ---------------------------------------------------------------------------------------------------------------
 
 https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/
