@@ -1,22 +1,11 @@
-/* 
-const { MongoClient, ServerApiVersion } = require('mongodb');
-const uri = "mongodb+srv://rakurdekar:Rohit1996@rohitakurdekar.gcqicqv.mongodb.net/?retryWrites=true&w=majority";
-const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
-client.connect(err => {
-  const collection = client.db("test").collection("devices");
-  // perform actions on the collection object
-  client.close();
-});
- */
-
 
 var axios = require('axios');
 var mydata = JSON.stringify({
-    "dataSource": "RohitAkurdekar",
-    "database": "TestDB",
-    "collection": "TestCollection",
+    "dataSource": "<Your_User_Access_Name>",
+    "database": "<Your_Database_name>",
+    "collection": "<Your_collection_name>",
     "projection": {
-    //   "document":{"_id":3}
+
     }
 });
             
@@ -26,7 +15,7 @@ var config = {
     headers: {
       'Content-Type': 'application/json',
       'Access-Control-Request-Headers': '*',
-      'api-key': 'f6NOXo00Voi8xzMNtEJ1AYpadd4VkqStBJAl5HgstDHHCYETjj6OrwDsWAnRX0gy',
+      'api-key': '<Your_API_key>',
     },
     data: mydata
 };

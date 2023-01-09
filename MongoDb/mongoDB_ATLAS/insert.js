@@ -2,23 +2,23 @@
 
 var axios = require('axios');
 var mydata = JSON.stringify({
-    "dataSource": "RohitAkurdekar",
-    "database": "TestDB",
-    "collection": "TestCollection",
+    "dataSource": "<Your_User_Access_Name>",
+    "database": "<Your_Database_name>",
+    "collection": "<Your_collection_name>",
     "document": {
-      "_id":3,
-      "temp": 100,
-      "Humid":100
+      "_id":"<Unique_ID>",
+      "field1": "parameter",
+      "fieldN": "parameter",
     }
 });
             
 var config = {
     method: 'post',
-    url: 'https://data.mongodb-api.com/app/data-qfawu/endpoint/data/v1/action/insertOne',
+    url: 'https://data.mongodb-api.com/app/<Your_data>/endpoint/data/v1/action/insertOne',
     headers: {
       'Content-Type': 'application/ejson',
       'Access-Control-Request-Headers': '*',
-      'api-key': 'f6NOXo00Voi8xzMNtEJ1AYpadd4VkqStBJAl5HgstDHHCYETjj6OrwDsWAnRX0gy',
+      'api-key': '<Your_API_key>',
     },
     data: mydata
 };
