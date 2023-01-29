@@ -10,15 +10,15 @@ const userDB= [{"uname":"Kavtya","password":"mahakal"},
              {"uname":"taklu","password":"haivan"},
              {"uname":"tatya","password":"vinchu"}]
 
-const ExpressJs = require("../../../../../../my_node_modules/node_modules/express");
+const ExpressJs = require("express");
 const app =ExpressJs()
 
-const body_parser = require("../../../../../../my_node_modules/node_modules/body-parser")
+const body_parser = require("body-parser")
 app.use(body_parser.urlencoded({extended: false}));
 
 app.use(ExpressJs.json())
 
-const { check, validationResult } = require("../../../../../../my_node_modules/node_modules/express-validator/src");
+const { check, validationResult } = require("express-validator/src");
 
 app.get("/",(req,resp)=>{
     resp.sendFile("login.html",{root:__dirname});
